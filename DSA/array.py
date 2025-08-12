@@ -28,4 +28,8 @@ print("Average marks:", average)
 max_marks = max(marks)
 min_marks = min(marks)
 
+#Why this matters for Face Recognition later:
 
+#Instead of marks, you’ll store face encodings (which are just big number arrays).
+
+#You’ll access, update, and loop through them exactly like this.
