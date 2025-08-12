@@ -27,7 +27,16 @@ print("Average marks:", average)
 # Step 8: Find maximum and minimum marks
 max_marks = max(marks)
 min_marks = min(marks)
-
+print("Maximum marks:", max_marks)
+print("Minimum marks:", min_marks)
+# Step 9: Check if a mark exists
+if 90 in marks:
+    print("90 is in the marks list.")
+else:
+    print("90 is not in the marks list.")
+    
+# Step 9: Remove an element
+marks.remove(80)  # Remove the mark of 3rd student
 #Why this matters for Face Recognition later:
 
 #Instead of marks, you’ll store face encodings (which are just big number arrays).
