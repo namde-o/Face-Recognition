@@ -133,3 +133,6 @@ print("All face encodings:")
 for encoding in face_encodings:
     print(encoding) 
 
+#Instead of marks, you’ll store face encodings (which are just big number arrays).
+
+#You’ll access, update, and loop through them exactly like this.
