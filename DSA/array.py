@@ -136,3 +136,4 @@ for encoding in face_encodings:
 #Instead of marks, you’ll store face encodings (which are just big number arrays).
 
 #You’ll access, update, and loop through them exactly like this.
+print("\nData processing completed successfully.");
